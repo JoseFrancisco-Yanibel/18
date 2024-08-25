@@ -1,0 +1,72 @@
+/* Estilos para el modal */
+.modal-content {
+    text-align: center; /* Centra el texto dentro del modal */
+  }
+  
+  .modal-header .modal-title {
+    font-size: 1.5rem; /* Ajusta el tamaño del título del modal si es necesario */
+  }
+  
+  .modal-body {
+    padding: 20px; /* Ajusta el padding según tus necesidades */
+  }
+  
+  /* Estilo para el botón de enviar */
+  .modal-footer .btn-primary {
+    background-color: #83c583; /* Verde pastel */
+    border: 1px solid #83c583; /* Borde del mismo color */
+    color: white; /* Texto blanco */
+  }
+  
+  .modal-footer .btn-primary:hover {
+    background-color: #e6f9e6; /* Verde casi blanco al hacer hover */
+    border: 1px solid #e6f9e6; /* Borde del mismo color que el fondo al hacer hover */
+  }
+  
+  /* Estilo para el botón de cerrar */
+  .modal-footer .btn-secondary {
+    background-color: #333; /* Negro gris */
+    border: 1px solid #333; /* Borde del mismo color */
+    color: white; /* Texto blanco */
+  }
+  
+  .modal-footer .btn-secondary:hover {
+    background-color: #555; /* Gris oscuro al hacer hover */
+    border: 1px solid #555; /* Borde del mismo color al hacer hover */
+  }
+  
+
+
+  /* Botón verde pastel para enviar */
+.btn-verde-pastel {
+  background-color: #83c583 !important;
+  color: white !important;
+  border: 1px solid #83c583 !important;
+}
+
+/* Hover para el botón verde pastel */
+.btn-verde-pastel:hover {
+  background-color: #356035 !important;
+  border-color: #356035 !important;
+  color: white !important;
+}
+
+/* Botón gris para cerrar */
+.btn-gris {
+  background-color: #333 !important;
+  color: white !important;
+  border: 1px solid #333 !important;
+}
+
+/* Hover para el botón gris */
+.btn-gris:hover {
+  background-color: #787878 !important;
+  border-color: #9a9a9a !important;
+  color: white !important;
+}
+
+/* Para oscurecer el fondo cuando el modal esté activo */
+.modal-backdrop.show {
+  opacity: 0.5 !important;
+}
+
